@@ -1,0 +1,12 @@
+<view class="page">
+  <map show-location="{{true}}"></map>
+  <scroll-view class="scroll" scroll-y="{{true}}" enhanced="{{true}}" show-scrollbar="{{false}}"
+    bindscroll="handleScroll" binddragstart="bindstart" binddragend="bindend"
+    scroll-top="{{}}">
+
+    <view class="content">
+      <view class="item"></view>
+      <view class="item"></view>
+    </view>
+  </scroll-view>
+</view>
